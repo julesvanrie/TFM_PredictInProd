@@ -82,4 +82,4 @@ clean:
 
 ##### Prediction API - - - - - - - - - - - - - - - - - - - - - - - - -
 run_api:
-	uvicorn api.fast:app --reload  # load web server with code autoreload
+	uvicorn api.fast:app --port 8101 --reload  # load web server with code autoreload
